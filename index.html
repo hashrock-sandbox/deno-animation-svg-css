@@ -9,14 +9,6 @@
       <g transform="translate(100,100) scale(0.8)">
         <deno></deno>
       </g>
-      <g transform="translate(400,200) scale(0.5)">
-        <deno :init="10"></deno>
-      </g>
-  
-      <text text-anchor="middle" font-size="30" :x="230 + 40 * idx" :y="460 + y(idx)" fill="white" stroke-width=10 stroke="#F44" stroke-linejoin="round" v-for="(c, idx) in letters">
-        {{c}}
-      </text>
-  
     </svg>
   </div>
   <script type="text/x-template" id="deno">
