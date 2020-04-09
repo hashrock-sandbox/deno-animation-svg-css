@@ -1,3 +1,37 @@
 body {
   background: #fefeef;
 }
+@keyframes sin {
+  0% {
+    transform: translate(0px, 20px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes sin-rotate {
+  0% {
+    transform-origin: 30 20;
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform-origin: 30 20;
+    transform: rotate(15deg);
+  }
+}
+.foot{
+  animation: sin-rotate 0.5s alternate infinite ease-in-out;
+}
+
+.foot-1{
+  animation-delay: 0s;
+}
+.foot-2{
+  animation-delay: -0.3s;
+}
+.foot-3{
+  animation-delay: -0.6s;
+}
+.foot-4{
+  animation-delay: -0.9s;
+}
