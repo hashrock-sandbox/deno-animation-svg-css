@@ -12,17 +12,18 @@
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
+      <defs>
+        <g id="foot" transform-origin="30 20"><path d="M0 24C-1 9 8 1 31 0c37 5 28 38 28 57s-8 38-13 51H17C3 98 2 38 0 24z"/>
+        </g>
+      </defs>
+
         <g transform="translate(100,100) scale(0.8)">
           <deno></deno>
         </g>
       </svg>
     </div>
     <script type="text/x-template" id="deno">
-        <g :transform="t">
-          <defs>
-            <g id="foot" transform-origin="30 20"><path d="M0 24C-1 9 8 1 31 0c37 5 28 38 28 57s-8 38-13 51H17C3 98 2 38 0 24z"/>
-            </g>
-          </defs>
+          <g class="jump">
 
           <g transform="translate(240, 240)">
             <use class="foot foot-1" xlink:href="#foot" fill="#446D40"></use>
