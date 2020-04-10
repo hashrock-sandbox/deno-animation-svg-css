@@ -45,6 +45,9 @@ body {
 .move{
   animation: move-sin 1.6s alternate infinite ease-in-out;
 }
+.move-child{
+  animation-delay: 0.3s;
+}
 
 .foot{
   animation: sin-rotate 0.4s alternate infinite ease-in-out;
