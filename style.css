@@ -12,11 +12,11 @@ body {
 @keyframes sin-rotate {
   0% {
     transform-origin: 30 20;
-    transform: rotate(-15deg);
+    transform: rotate(-7deg);
   }
   100% {
     transform-origin: 30 20;
-    transform: rotate(15deg);
+    transform: rotate(7deg);
   }
 }
 @keyframes jump-sin {
@@ -24,30 +24,41 @@ body {
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(0, -20);
+    transform: translate(0px, -10px);
   }
   100% {
     transform: translate(0, 0);
   }
 }
+@keyframes move-sin {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(40px, 0px);
+  }
+}
 
 .jump{
-  animation: jump-sin 0.5s alternate infinite ease-in-out;
+  animation: jump-sin 0.4s alternate infinite ease-in-out;
+}
+.move{
+  animation: move-sin 1.6s alternate infinite ease-in-out;
 }
 
 .foot{
-  animation: sin-rotate 0.5s alternate infinite ease-in-out;
+  animation: sin-rotate 0.4s alternate infinite ease-in-out;
 }
 
 .foot-1{
-  animation-delay: 0s;
+  animation-delay: 0.1s;
 }
 .foot-2{
-  animation-delay: -0.3s;
+  animation-delay: -0.5s;
 }
 .foot-3{
-  animation-delay: -0.6s;
+  animation-delay: -0s;
 }
 .foot-4{
-  animation-delay: -0.9s;
+  animation-delay: -0.4s;
 }
