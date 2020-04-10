@@ -38,6 +38,18 @@ body {
     transform: translate(40px, 0px);
   }
 }
+@keyframes text-jump {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(0px, -20px);
+  }
+  40% {
+    transform: translate(0, 0);
+  }
+}
+
 
 .jump{
   animation: jump-sin 0.4s alternate infinite ease-in-out;
@@ -64,4 +76,29 @@ body {
 }
 .foot-4{
   animation-delay: -0.4s;
+}
+
+.loading-letter{
+  animation: text-jump 2s normal infinite ease-in-out;
+}
+.loading-letter-0{
+  animation-delay: 0s;
+}
+.loading-letter-1{
+  animation-delay: .1s;
+}
+.loading-letter-2{
+  animation-delay: .2s;
+}
+.loading-letter-3{
+  animation-delay: .3s;
+}
+.loading-letter-4{
+  animation-delay: .4s;
+}
+.loading-letter-5{
+  animation-delay: .5s;
+}
+.loading-letter-6{
+  animation-delay: .6s;
 }
