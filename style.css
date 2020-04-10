@@ -50,55 +50,54 @@ body {
   }
 }
 
-
-.jump{
+.jump {
   animation: jump-sin 0.4s alternate infinite ease-in-out;
 }
-.move{
+.move {
   animation: move-sin 1.6s alternate infinite ease-in-out;
 }
-.move-child{
+.move-child {
   animation-delay: 0.3s;
 }
 
-.foot{
+.foot {
   animation: sin-rotate 0.4s alternate infinite ease-in-out;
 }
 
-.foot-1{
+.foot-1 {
   animation-delay: 0.1s;
 }
-.foot-2{
+.foot-2 {
   animation-delay: -0.5s;
 }
-.foot-3{
+.foot-3 {
   animation-delay: -0s;
 }
-.foot-4{
+.foot-4 {
   animation-delay: -0.4s;
 }
 
-.loading-letter{
+.loading-letter {
   animation: text-jump 2s normal infinite ease-in-out;
 }
-.loading-letter-0{
+.loading-letter-0 {
   animation-delay: 0s;
 }
-.loading-letter-1{
-  animation-delay: .1s;
+.loading-letter-1 {
+  animation-delay: 0.1s;
 }
-.loading-letter-2{
-  animation-delay: .2s;
+.loading-letter-2 {
+  animation-delay: 0.2s;
 }
-.loading-letter-3{
-  animation-delay: .3s;
+.loading-letter-3 {
+  animation-delay: 0.3s;
 }
-.loading-letter-4{
-  animation-delay: .4s;
+.loading-letter-4 {
+  animation-delay: 0.4s;
 }
-.loading-letter-5{
-  animation-delay: .5s;
+.loading-letter-5 {
+  animation-delay: 0.5s;
 }
-.loading-letter-6{
-  animation-delay: .6s;
+.loading-letter-6 {
+  animation-delay: 0.6s;
 }
